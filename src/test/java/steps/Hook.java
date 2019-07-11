@@ -30,9 +30,9 @@ public class Hook extends BaseUtil{
         base.Driver = new FirefoxDriver();*/
 
 
-        //Chrome driver
-        System.setProperty("webdriver.chrome.driver", "C:\\Libs\\chromedriver.exe");
-        base.Driver = new ChromeDriver();
+#        //Chrome driver
+#        System.setProperty("webdriver.chrome.driver", "C:\\Libs\\chromedriver.exe");
+#        base.Driver = new ChromeDriver();
     }
 
 
